@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Koulen";
+    src: url('BebasNeue-Regular.ttf');
+}
+
+*, html, body {
+font-family: "Koulen", sans-serif;
+}
+body{
+    background: #000000;
+    width:98vw;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:5vh;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url('BarlowCondensed-Regular.ttf');
+}
+.intro{
+    padding-top:5%;
+    text-align:center;
+    font-size:25px;
+    font-family: 'Barlow', sans-serif;
+}
+.input{
+    margin-bottom : 5vh;
+}
+.logo{
+    height:50px;
+    width:150px;
+    margin:auto;
+    position:absolute;
+}
+.frenchflag{
+    max-width:10%;
+    opacity:0.7;
+    filter: blur(1px);
+    height:25%;
+    object-fit:cover;
+}
+.Row{
+    padding: 5%;
+    height:100%;
+     ;
+    
+}
+.page{
+    background-color:#3D0000;
+    width:95vw;
+    justify-content: center;
+}
+#react-entry-point{
+
+    height:100%;
+}
+.menu-container{
+    background:#950101;
+    color:white;
+    justify-content: center;
+    width:80%;
+    height:100%;
+    margin:auto;
+    margin-top:1%;
+    margin-bottom:1%;
+    padding:2%;
+    box-shadow: 0px 0px 10px -5px #F3A712 inset;
+    border-radius: 10px;
+    font-family: "Koulen", sans-serif;
+}
+.Posters{
+    width:300px;
+    height:450px;
+    border-radius:3px;
+    box-shadow: 1px 1px 10px -1px #272727;
+    overflow:hidden;
+}
+
+.Recommandation{
+    justify-content:center;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    padding:1%;
+    transition: all ease-in-out 0.5s;
+    font-family: "Koulen", sans-serif;
+}
+.Recommandation:hover{
+
+    transform:scale(1.05);
+}
+.Infos{
+    text-align:center;
+}
+H1{
+    text-align:center;
+    color:white;
+}
+H2{
+    text-align: center;
+}
+P{
+    color:white;
+}
+
+.Title{
+    color:white;
+    margin-bottom:5vh;
+}
+
+
+.divcentrer{
+    justify-content: center;
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+}
